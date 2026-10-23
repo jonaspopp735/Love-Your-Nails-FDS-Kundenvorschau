@@ -1,0 +1,9 @@
+{
+  "name": "love-your-nails-freudenstadt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive One-Page-Website für Love Your Nails Freudenstadt",
+  "scripts": {
+    "check": "node -e \"const fs=require('fs');['index.html','styles.css','script.js','assets/logo.png','assets/hero-nails.png','assets/gallery-french.png','assets/gallery-color.png'].forEach(f=>{if(!fs.existsSync(f)) throw new Error('Fehlt: '+f)}); console.log('Statischer Check erfolgreich: alle Kern-Dateien vorhanden.')\""
+  }
+}
